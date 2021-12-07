@@ -1,0 +1,42 @@
+.info {
+  padding-top: 94px;
+}
+.list-info {
+  display: flex;
+}
+.item-info {
+  margin-right: 30px;
+  width: 270px;
+}
+.item-info:nth-child(4) {
+  margin-right: 0px;
+}
+.info-box {
+  width: 270px;
+  height: 120px;
+  background-color: #f5f4fa;
+  border-radius: 4%;
+  margin-bottom: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.title-info {
+  margin-bottom: 10px;
+}
+.title-info {
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #212121;
+}
+.text-info {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+}
