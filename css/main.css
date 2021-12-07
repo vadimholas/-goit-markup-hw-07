@@ -23,21 +23,6 @@ button {
   cursor: pointer;
 }
 
-:root {
-  --primary-text-color: #757575;
-  --title-text-color: #212121;
-  --accent-text-color: #2196f3;
-  --primary-fon-color: #e5e5e5;
-}
-
-body {
-  background-color: #ffffff;
-  color: var(--primary-text-color);
-  font-family: Roboto, sans-serif;
-  font-size: 16px;
-  line-height: 1.87em;
-}
-
 .title-clients {
   font-style: normal;
   font-weight: bold;
@@ -86,16 +71,15 @@ body {
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
+.link-clients:hover, .link-clients:focus {
+  color: var(--accent-text-color);
+  border-color: var(--accent-text-color);
+}
+
 .icon-clients {
   fill: currentColor;
   width: 106px;
   height: 60px;
-}
-
-.link-clients:hover,
-.link-clients:focus {
-  color: var(--accent-text-color);
-  border-color: var(--accent-text-color);
 }
 
 .footer {
@@ -1053,5 +1037,20 @@ body {
   border: 0;
   padding: 0;
   overflow: hidden;
+}
+
+:root {
+  --primary-text-color: #757575;
+  --title-text-color: #212121;
+  --accent-text-color: #2196f3;
+  --primary-fon-color: #e5e5e5;
+}
+
+body {
+  background-color: #ffffff;
+  color: var(--primary-text-color);
+  font-family: Roboto, sans-serif;
+  font-size: 16px;
+  line-height: 1.87em;
 }
 /*# sourceMappingURL=main.css.map */
