@@ -1,15 +1,14 @@
-.title-work {
+.work__title {
   font-style: normal;
   font-weight: bold;
   font-size: 36px;
   line-height: 1.7;
   text-align: center;
   letter-spacing: 0.03em;
-  color: #212121;
-}
-.title-work {
+  color: #212121; 
   margin-bottom: 50px;
 }
+
 .title-team {
   font-style: normal;
   font-weight: bold;
@@ -31,4 +30,26 @@
   letter-spacing: 0.03em;
   color: var(--title-text-color);
   margin-bottom: 50px;
+}
+.hero__title{
+  color: #ffffff;
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  display: block;
+  margin-top: auto;
+}
+
+
+.info__title {
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #212121;
+  margin-bottom: 10px;
 }
