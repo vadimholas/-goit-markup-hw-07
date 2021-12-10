@@ -1,5 +1,4 @@
-
-.accent {
+.header__span--accent {
   color: var(--accent-text-color);
 }
 .nav__list {
@@ -32,11 +31,11 @@
   text-decoration: none;
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   &:hover {
-  color: var(--accent-text-color);
-}
+    color: var(--accent-text-color);
+  }
   &:focus {
-  color: var(--accent-text-color);
-}
+    color: var(--accent-text-color);
+  }
 }
 .nav__link--active {
   color: var(--accent-text-color);
@@ -64,8 +63,8 @@
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   &:hover,
   &:focus {
-  color: var(--accent-text-color);
-}
+    color: var(--accent-text-color);
+  }
 }
 .contact__maill {
   margin-right: 10px;
@@ -80,7 +79,6 @@
   fill: currentColor;
 }
 
-
 .header__container {
   display: flex;
   align-items: center;
@@ -88,4 +86,3 @@
 .header {
   border-bottom: 1px solid #ececec;
 }
-
