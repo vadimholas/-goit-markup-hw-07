@@ -397,9 +397,9 @@
           <form class="footer-form__form" action="#">
             <input class="footer-form__input" type="text" name="maill" placeholder="E-mail" />
 
-            <button class="btn-form-footer" type="submit">
+            <button class="footer-btn" type="submit">
               Подписаться
-              <svg class="footer-icon-form" width="24" height="24">
+              <svg class="footer-btn__icon" width="24" height="24">
                 <use href="./images/icons.svg#icon-send"></use>
               </svg>
             </button>
@@ -415,36 +415,41 @@
             <use href="./images/icons.svg#icon-close"></use>
           </svg>
         </button>
-        <p class="text-one-modal">Оставьте свои данные, мы вам перезвоним</p>
+        <p class="modal__text">Оставьте свои данные, мы вам перезвоним</p>
         <form action="#">
           <div class="form-fild">
             <label
               >Имя
               <span class="icon-input">
-                <input class="modal-input" type="text" name="name" />
-                <svg class="icon-check" width="18" height="18">
-                  <use href="./images/icons.svg#icon-person"></use></svg
-              ></span>
+                <input class="modal__input" type="text" name="name" />
+                <svg class="modal__check" width="18" height="18">
+                  <use href="./images/icons.svg#icon-person">
+                  </use>
+                </svg>
+              </span>
             </label>
           </div>
           <div class="form-fild">
             <label
               >Телефон
               <span class="icon-input">
-                <input class="modal-input" type="text" name="tel" />
-                <svg class="icon-check" width="18" height="18">
-                  <use href="./images/icons.svg#icon-phone"></use></svg
-              ></span>
+                <input class="modal__input" type="text" name="tel" />
+                <svg class="modal__check" width="18" height="18">
+                  <use href="./images/icons.svg#icon-phone">
+                  </use>
+                </svg>
+              </span>
             </label>
           </div>
           <div class="form-fild">
             <label
               >Почта
               <span class="icon-input">
-                <input class="modal-input" type="text" name="maill" />
-                <svg class="icon-check" width="18" height="18">
-                  <use href="./images/icons.svg#icon-email-check"></use></svg
-              ></span>
+                <input class="modal__input" type="text" name="maill" />
+                <svg class="modal__check" width="18" height="18">
+                  <use href="./images/icons.svg#icon-email-check"></use>
+                  </svg>
+             </span>
             </label>
           </div>
           <div class="form-fild">
@@ -460,15 +465,15 @@
               ></textarea>
             </label>
           </div>
-          <label class="label-check">
+          <label class="label-backdrop__check">
             <input class="checkbox" type="checkbox" />
             <span class="check-span">
               <svg class="check-svg">
                 <use href="./images/icons.svg#icon-icon-send"></use>
               </svg>
             </span>
-            <b class="form-text">Соглашаюсь с рассылкой и принимаю</b>
-            <a class="form-link" href="">Условия договора </a>
+            <b class="label-backdrop__text">Соглашаюсь с рассылкой и принимаю</b>
+            <a class="label-backdrop__link" href="">Условия договора </a>
           </label>
           <div class="btn-div">
             <button class="btn-modal-send" type="submit">Отправить</button>
